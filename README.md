@@ -11,7 +11,7 @@ A dotenv file was used to store my secrets/tokens. To make use of this scripts, 
 1. Masimo Rad-8 Pulse-Oximeter (have a Rad-7 and need to test, but have not yet)
 2. Ability to capture ASCII from DB9 connection (I use a raspberry pi Zero W)
 3. InfluxDB Cloud Instance (Free for 30-day data retention w/ a few other constraints)
-⋅⋅1. [InfluxDB AWS Link](https://us-west-2-1.aws.cloud2.influxdata.com/login)
+  1. [InfluxDB AWS Link](https://us-west-2-1.aws.cloud2.influxdata.com/login)
 
-One other difference from my older version is that I am capturing SPO2, BPM & Perfusion Index.
+One other difference from my older version is that I am capturing **SPO2, BPM & Perfusion Index**.
 Alarm codes are also available, but I have not parsed nor decoded those. Perhaps someday I will.
